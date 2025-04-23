@@ -76,7 +76,9 @@ Merged Food price and Expectation of climate change dataset together
 
 
 
+### 📸 Screenshot 671
 
+![Screenshot 671](https://github.com/Lauren-Akhidenor/Foodprice_ClimateChange/raw/main/Screenshot%20(671).png)
 
 
 
