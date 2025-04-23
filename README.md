@@ -1,4 +1,4 @@
-# 🌾 The Influence of Climate Change Expectations and Sectoral Differences on Food Prices in Nigeria
+# The Influence of Climate Change Expectations and Sectoral Differences on Food Prices in Nigeria
 
 This project explores how local perceptions of climate extremes such as droughts and floods affect food price trends across Nigerian communities. Combining **Excel**, **Power BI**, and **Python (Google Colab)**, this analysis provides an integrated view of data processing, visualization, and model insights.
 
