@@ -54,7 +54,6 @@ climate-food-prices-nigeria/
 
 ### 🔹 Excel:
 
-
 cleaned the dataset
 
 Power Query execution
@@ -62,19 +61,24 @@ Power Query execution
 Merged Food price and Expectation of climate change dataset together
 
 
-![Screenshot 687](https://github.com/Lauren-Akhidenor/Foodprice_ClimateChange/raw/main/Screenshot%20(687).png)
+
+
+
+
+
+
 
 
 ### 🔹 Power Bi:
 
 
 
-![Screenshot 671](https://github.com/Lauren-Akhidenor/Foodprice_ClimateChange/blob/main/Screenshot%20(671).png?raw=true)
 
 
-![Screenshot 673](https://github.com/Lauren-Akhidenor/Foodprice_ClimateChange/blob/main/Screenshot%20(673).png)
 
-![Screenshot 674](https://github.com/Lauren-Akhidenor/Foodprice_ClimateChange/blob/main/Screenshot%20(674).png)
+
+
+
 
 
 
