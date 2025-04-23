@@ -1,14 +1,14 @@
 # 🌾 Analyzing the Impact of Climate Change Expectations on Food Prices in Nigeria
 
-This project explores how local perceptions of climate extremes—such as droughts and floods—affect food price trends across Nigerian communities. Combining **Excel**, **Power BI**, and **Python (Google Colab)**, this analysis provides an integrated view of data processing, visualization, and model insights.
+This project explores how local perceptions of climate extremes such as droughts and floods affect food price trends across Nigerian communities. Combining **Excel**, **Power BI**, and **Python (Google Colab)**, this analysis provides an integrated view of data processing, visualization, and model insights.
 
 ---
 
 ## 🎯 Objectives
 
+- Generate clear, Excel-style bar chart visualizations using Pytho
 - Investigate how communities expect climate change to evolve.
 - Analyze food price variations across regions in Nigeria.
-- Identify gender and economic sector trends related to climate perceptions.
 - Combine descriptive and predictive insights using multiple tools.
 
 ---
@@ -17,18 +17,18 @@ This project explores how local perceptions of climate extremes—such as drough
 
 | Tool        | Purpose                                  |
 |-------------|------------------------------------------|
-| Excel       | Data cleaning, filtering, and pre-processing |
+| Excel       | Data cleaning, merging of data, filtering, and pre-processing |
 | Power BI    | Interactive dashboards & summary visuals |
-| Google Colab| Data merging, analysis, modeling (Python) |
+| Google Colab| Analysis, modeling & predicting (Python) |
 
 ---
 
 ## 📦 Data Sources
 
-- **GHS-Panel Wave 5 (2023/2024)**:
+- **GHS-Panel Wave 5 post harvest community (2023/2024)** :
   - Section 6b: Expectations on Climate Extremes
   - Section 8: Food Prices
-  - Household & Labour Sections for demographics and sector data
+  
 
 ---
 
@@ -37,19 +37,56 @@ This project explores how local perceptions of climate extremes—such as drough
 ```bash
 climate-food-prices-nigeria/
 │
-├── 📂 data/                # Excel and CSV datasets
-│   ├── climate_section6b.xlsx
+├── 📂 data/                # Excel datasets
+│   ├── Expectation_of_climate_section6b.xlsx
 │   ├── food_prices_section8.xlsx
-│   └── merged_dataset.csv
+│   └── merged_dataset.xlsx
 │
 ├── 📂 notebooks/           # Google Colab notebooks (Python analysis)
-│   └── 01_Climate_Food_Analysis.ipynb
+│   └── 🌾 Analyzing the Impact of Climate Change Expectations on Food Prices in Nigeria.ipynb
 │
 ├── 📂 reports/             # Power BI dashboards (.pbix) and screenshots
 │   └── food-climate-dashboard.pbix
-│
-├── 📂 visuals/             # Exported charts and images
-│   └── price_trend_by_state.png
-│
-├── README.md              # Project overview
-└── requirements.txt       # Python packages for Colab
+
+
+--------------
+## 📈 Analyses Performed:
+
+### 🔹 Excel:
+
+
+
+
+
+
+### 🔹 Power Bi:
+
+
+
+
+
+
+
+
+### 🔹 Python (Google Colab):
+
+
+### 🔹 1. Sector-wise Climate Expectation Count
+- Counted number of respondents expecting future climate shocks by sector
+- Plotted bar chart showing which economic sector had more people expecting climate change
+
+### 🔹 2. Food Price Comparison by Climate Expectation & State
+- Compared average food prices (`c2q3`) between states
+- Grouped by `climate_exp_cd` (0 = No, 1 = Yes) to check price impact
+- Plotted bar chart showing how prices vary based on climate perception
+
+### 🔹 3. Predictive Modeling: Climate Expectation → Food Price
+- Used Linear Regression to predict food prices based on:
+  - `climate_exp_cd` (climate expectation)
+  - `sector`
+- Generated R-squared value, coefficients for interpretation
+- Insight: See how climate expectations numerically influence food price trends
+
+### ✅ Data Integrity
+- Values like 0/1 for climate expectations and sector were left as-is
+- No label encoding or renaming was applied, keeping raw data structure clean
