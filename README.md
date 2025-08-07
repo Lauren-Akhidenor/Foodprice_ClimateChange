@@ -87,7 +87,7 @@ This project explain the steps taken in carrying out the analysis on Google Cola
 ### 🔹 Python (Google Colab):
 
 -------------------
-In this section a detailled breakdown if what was dome was indicated in the screenshot coding sheet
+In this section a detailled breakdown if what was done was indicated in the screenshot coding sheet
 
 ### 📈 Uploaded file unto Google Colab and checking for missing values
 
@@ -184,10 +184,11 @@ where:
 ### 📈  Predictive Modeling: Climate Expectation → Food Price:
 
 
-- **Random Forest Classifer **
+- **Random Forest Classifer**
+
+**✅ Goal:**
 
 
-** ✅ Goal:**
 To predict individuals’ expectations of experiencing future climate shocks, where the response variable (climate_exp_cd) had four categories:
 
 -  1 = Late onset of rain
@@ -219,8 +220,9 @@ To predict individuals’ expectations of experiencing future climate shocks, wh
 
 - **DecisionTreeRegressor**
 
-
 **✅ Goal:**
+
+
 To predict food prices (c2q3) based on climate expectations (climate_exp_cd), sector, state, and item type (item_cd) using a Decision Tree Regression model.
 
 
