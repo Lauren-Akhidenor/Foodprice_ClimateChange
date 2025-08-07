@@ -1,6 +1,6 @@
 # The Influence of Climate Change Expectations and Sectoral Differences on Food Prices in Nigeria
 
-This project explores how local perceptions of climate extremes such as droughts and floods affect food price trends across Nigerian communities. Combining **Excel**, **Power BI**, and **Python (Google Colab)**, this analysis provides an integrated view of data processing, visualization, and model insights.
+This project explain the steps taken in carrying out the analysis on Google Colabs alongsides exploring how local perceptions of climate extremes such as droughts and floods affect food price trends across Nigerian communities. Combining **Excel**, **Power BI**, and **Python (Google Colab)**, this analysis provides an integrated view of data processing, visualization, and model insights.
 
 ---
 
@@ -87,6 +87,7 @@ This project explores how local perceptions of climate extremes such as droughts
 ### 🔹 Python (Google Colab):
 
 -------------------
+In this section a detailled breakdown if what was dome was indicated in the screenshot coding sheet
 
 ### 📈 Uploaded file unto Google Colab and checking for missing values
 
@@ -187,7 +188,7 @@ where:
 
 
 ** ✅ Goal:**
-To predict individuals’ expectations of experiencing future climate shocks, where the response variable (climate_exp_cd) has four categories:
+To predict individuals’ expectations of experiencing future climate shocks, where the response variable (climate_exp_cd) had four categories:
 
 -  1 = Late onset of rain
 
@@ -222,6 +223,10 @@ To predict individuals’ expectations of experiencing future climate shocks, wh
 **✅ Goal:**
 To predict food prices (c2q3) based on climate expectations (climate_exp_cd), sector, state, and item type (item_cd) using a Decision Tree Regression model.
 
+
+
+The code used is displayed below: 
+
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import mean_squared_error
 import numpy as np
@@ -244,6 +249,8 @@ tree_model.fit(X_tree, y_tree)
 y_pred = tree_model.predict(X_tree)
 rmse = np.sqrt(mean_squared_error(y_tree, y_pred))
 print(f"Train RMSE: {rmse:.2f}")
+
+
 
 
 
