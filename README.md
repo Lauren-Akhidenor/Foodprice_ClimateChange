@@ -218,7 +218,7 @@ To predict individuals’ expectations of experiencing future climate shocks, wh
 
 
 
-- **DecisionTreeRegressor**
+### **DecisionTreeRegressor**
 
 **✅ Goal:**
 
@@ -269,7 +269,7 @@ Since this RMSE is on the training set, it may not reflect real-world performanc
 
 
 
-- ** 📈 OLS regression output:**
+### **📈 OLS regression output:**
 
 **📌 Goal**
 To understand how climate expectation (climate_exp_cd), sector (urban/rural), Likelihood of Climate Change (c6bq1), Reason for Expecting Climate Change (c6bq2) influence food prices (c2q3).
