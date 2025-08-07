@@ -227,34 +227,6 @@ To predict food prices (c2q3) based on climate expectations (climate_exp_cd), se
 
 
 
-The code used is displayed below: 
-
-from sklearn.tree import DecisionTreeRegressor
-from sklearn.metrics import mean_squared_error
-import numpy as np
-import pandas as pd
-
-
-X_tree = pd.get_dummies(data[['climate_exp_cd', 'sector', 'item_cd', 'state']], drop_first=True)
-y_tree = data['c2q3']
-
-
-mask = ~y_tree.isna()
-X_tree = X_tree[mask]
-y_tree = y_tree[mask]
-
-
-tree_model = DecisionTreeRegressor(random_state=0)
-tree_model.fit(X_tree, y_tree)
-
-
-y_pred = tree_model.predict(X_tree)
-rmse = np.sqrt(mean_squared_error(y_tree, y_pred))
-print(f"Train RMSE: {rmse:.2f}")
-
-
-
-
 
 **📊 Result:**
 
