@@ -1,10 +1,10 @@
-# The Influence of Climate Change Expectations and Sectoral Differences on Food Prices in Nigeria
+# The Influence of Climate Change Expectations and Sectoral Differences on Food Prices in Nigeria 
 
 This project explain the steps taken in carrying out the analysis on Google Colabs alongsides exploring how local perceptions of climate extremes such as droughts and floods affect food price trends across Nigerian communities. Combining Excel, Power BI, and Python (Google Colab), this analysis provides an integrated view of data processing, visualization, and model insights.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Generate clear, Excel-style bar chart visualizations using Python.
 
@@ -26,7 +26,7 @@ This project explain the steps taken in carrying out the analysis on Google Cola
 
 ---
 
-## 📦 Data Sources
+## Data Sources
 
 - **GHS-Panel Wave 5 post harvest community (2023/2024)** :
   - Section 6b: Expectations on Climate Extremes
@@ -34,10 +34,10 @@ This project explain the steps taken in carrying out the analysis on Google Cola
   
 
 --------------
-## 📊 Analyses Performed:
+## Analyses Performed:
 
 -----------
-### 🔹 Excel:
+### Excel:
 
 
 - Cleaned the dataset
@@ -49,7 +49,7 @@ This project explain the steps taken in carrying out the analysis on Google Cola
 
 
 
-### 📈  Excel Power Query Dashboard
+### Excel Power Query Dashboard
 ![Screenshot 687](https://github.com/Lauren-Akhidenor/Foodprice_ClimateChange/blob/main/Screenshot%20(687).png)
 
 
@@ -58,24 +58,24 @@ This project explain the steps taken in carrying out the analysis on Google Cola
 
 -----------
 
-### 🔹 Power Bi:
+### Power Bi:
 
 -----------
 
 
-### 📈 Power Bi Dashboard
+### Power Bi Dashboard
 ![Power Bi Dashboard](https://github.com/Lauren-Akhidenor/Foodprice_ClimateChange/blob/main/Screenshot%20%28671%29.png?raw=true)
 
 
 
 
-### 📈 Power Bi Dashboard 2
+### Power Bi Dashboard 2
 ![Power Bi Dashboard 2](https://github.com/Lauren-Akhidenor/Foodprice_ClimateChange/blob/main/Screenshot%20%28673%29.png?raw=true)
 
 
 
 
-### 📈 Power Bi Dashboard 3
+### Power Bi Dashboard 3
 ![Power Bi Dashboard 3](https://github.com/Lauren-Akhidenor/Foodprice_ClimateChange/blob/main/Screenshot%20%28674%29.png?raw=true)
 
 
@@ -84,12 +84,12 @@ This project explain the steps taken in carrying out the analysis on Google Cola
 -----------
 
 
-### 🔹 Python (Google Colab):
+### Python (Google Colab):
 
 -------------------
 In this section a detailled breakdown if what was done was indicated in the screenshot coding sheet
 
-### 📈 Uploaded file unto Google Colab and checking for missing values
+### Uploaded file unto Google Colab and checking for missing values
 
 ![Screenshot 675](https://github.com/Lauren-Akhidenor/Foodprice_ClimateChange/blob/main/Screenshot%20(675).png)
 
@@ -109,7 +109,7 @@ In this section a detailled breakdown if what was done was indicated in the scre
 
 
 
-### 📈 Filtering, grouping, and sorting data based on climate expectation by sector
+### Filtering, grouping, and sorting data based on climate expectation by sector
 
 ![Screenshot 678](https://github.com/Lauren-Akhidenor/Foodprice_ClimateChange/blob/main/Screenshot%20(678).png)
 
@@ -118,7 +118,7 @@ In this section a detailled breakdown if what was done was indicated in the scre
 
 
 
-### 📈 Sector-wise Climate Expectation Analysis (Rural vs Urban)
+### Sector-wise Climate Expectation Analysis (Rural vs Urban)
 ![Screenshot 682](https://github.com/Lauren-Akhidenor/Foodprice_ClimateChange/blob/main/Screenshot%20(682).png)
 
 
@@ -132,7 +132,7 @@ In this section a detailled breakdown if what was done was indicated in the scre
 
 
 
-### 📈 Food Price Comparison by State and Climate Expectation
+### Food Price Comparison by State and Climate Expectation
 ![Screenshot 693](https://github.com/Lauren-Akhidenor/Foodprice_ClimateChange/blob/main/Screenshot%20(693).png)
 
 
@@ -141,13 +141,13 @@ In this section a detailled breakdown if what was done was indicated in the scre
 
 
 
-### 📈  Graphical result for Food Price Comparison by State and Climate Expectation
+### Graphical result for Food Price Comparison by State and Climate Expectation
 ![Screenshot 694](https://github.com/Lauren-Akhidenor/Foodprice_ClimateChange/blob/main/Screenshot%20(694).png)
 
 
 
 
-### 📈  Urban vs Rural Climate Expectation Count specific
+### Urban vs Rural Climate Expectation Count specific
 
 
 where:
@@ -167,7 +167,7 @@ where:
 
 
 
-###  📈  Price distribution by state
+###  Price distribution by state
 
 ![Screenshot 702](https://github.com/Lauren-Akhidenor/Foodprice_ClimateChange/blob/main/Screenshot%20(702).png)
 
@@ -181,12 +181,12 @@ where:
 
 
 
-### 📈  Predictive Modeling: Climate Expectation → Food Price:
+### Predictive Modeling: Climate Expectation → Food Price:
 
 
 - **Random Forest Classifer**
 
-**✅ Goal:**
+**📌 Goal:**
 
 
 To predict individuals’ expectations of experiencing future climate shocks, where the response variable (climate_exp_cd) had four categories:
@@ -220,7 +220,7 @@ To predict individuals’ expectations of experiencing future climate shocks, wh
 
 - **DecisionTreeRegressor**
 
-**✅ Goal:**
+**📌 Goal:**
 
 
 To predict food prices (c2q3) based on climate expectations (climate_exp_cd), sector, state, and item type (item_cd) using a Decision Tree Regression model.
@@ -228,7 +228,7 @@ To predict food prices (c2q3) based on climate expectations (climate_exp_cd), se
 
 
 
-**📊 Result:**
+**Result:**
 
 Train RMSE: 1036.37
 
@@ -241,7 +241,7 @@ Since this RMSE is on the training set, it may not reflect real-world performanc
 
 
 
-- **📈 OLS regression output:**
+- **OLS regression output:**
 
 **📌 Goal**
 To understand how climate expectation (climate_exp_cd), sector (urban/rural), Likelihood of Climate Change (c6bq1), Reason for Expecting Climate Change (c6bq2) influence food prices (c2q3).
@@ -266,7 +266,7 @@ To understand how climate expectation (climate_exp_cd), sector (urban/rural), Li
 
 
 
-### 📈  State level food price Clusters:
+### State level food price Clusters:
 
 
 ![Screenshot 710](https://github.com/Lauren-Akhidenor/Foodprice_ClimateChange/blob/main/Screenshot%20(710).png)
